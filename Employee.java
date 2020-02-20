@@ -1,0 +1,41 @@
+package com.stream.java;
+
+
+public class Employee {
+
+	private int id;
+	private String name;	
+	private int salary;
+	
+	
+	
+
+	public Employee(int i, String string, int j) {
+		// TODO Auto-generated constructor stub
+		
+		this.id=i;
+		this.name=string;
+		this.salary=j;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	
+	
+}
+
